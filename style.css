@@ -1,0 +1,113 @@
+.head1{
+    text-align: center;
+    font-size:30px;
+}
+
+.block1{
+    background-color: #042062;
+    border: 6px solid #042062;
+    border-radius: 10px;
+    color: whitesmoke;
+    /* text-align: center; */
+    font-size:18px;
+    text-indent: 50px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+#footer {
+    background-color: black;
+    /* position: fixed; Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: #fff; /* Цвет текста */
+    right: 0; /* Ширина слоя */
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+   }
+
+.contact{
+    font-size: 25px;  
+    font-weight: 550;
+    font-size: large;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: black;
+    background-color: #fff;
+    border: 6px solid #fff;
+    border-radius: 15px;
+    
+}
+
+button{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+    opacity: 0.7;
+    transition: 0.1s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border: 6px solid #fff;
+    border-radius: 15px;
+    width: 30%;
+    height: 200px;
+    margin: auto;
+    display: block;
+  }
+  
+button:hover {opacity: 1}
+
+.button1{
+    background-color: #f4511e;
+
+}
+
+.button2{
+
+    background-color: #451ef4;
+}
+
+.button3{
+    background-color: #1ef470
+}
+
+.button4{
+    background-color: #d01ef4
+}
+
+/* #menuhead{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(145, 95, 160);
+} */
+.menu{
+    position: fixed;
+    text-decoration: none;
+    /* color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+    top: 10px;
+    background-color:#042062;
+    /* padding: 10px; */
+    width: 100px;
+    height: 10px;
+    font-size:18px;
+    color: whitesmoke;
+}
+
+
+
